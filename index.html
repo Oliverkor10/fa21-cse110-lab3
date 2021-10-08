@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab 2 Website</title>
+    <style>
+      body {
+        background-color: #ccf2f4;
+      }
+    </style>
+    <link rel="icon" href="/Images/favicon.png" />
+  </head>
+  <body>
+    <header><h1>Stock Portfolio Project</h1></header>
+    <main>
+      <h2>Meeting October 1st</h2>
+      <input type="date" value="2021-10-01" />
+      <h3>Summary of Last Meeting</h3>
+      <ul>
+        <li>Brainstormed Initial Ideas</li>
+        <li>Task 1: Create basic HTML layout of the page</li>
+        <li>
+          <em
+            >15 minute
+            <a
+              href="https://www.freecodecamp.org/news/html-basics-for-beginners/"
+            >
+              Tutorial</a
+            >
+            for HTML</em
+          >
+        </li>
+      </ul>
+      <hr />
+      <h3>Check-In</h3>
+      <p>Has every group member completed the HTML Video?</p>
+      <form>
+        <p>
+          <label> Oliver </label>
+          <input type="checkbox" />
+          <label>Michael</label>
+          <input type="checkbox" />
+        </p>
+        <p>
+          <label>Jeff</label>
+          <input type="checkbox" />
+          <label>Joe</label>
+          <input type="checkbox" />
+        </p>
+      </form>
+      <details>
+        <summary>Today's Tasks</summary>
+
+        <ol>
+          <li>
+            We gotta make our websites more prettier. Time to learn
+            <i>CSS</i> in our Free Time?
+          </li>
+          <li>Learn how to create a pie chart for our stock portfolio UI</li>
+          <li>Compare gains to <b>SP500</b>? Or are we out of scope?</li>
+        </ol>
+      </details>
+      <p>
+        Today will be another day for daytreaming. Put out all of your ideas
+        out. And once we got CSS, and Javascript in our grasp we can continue on
+        and see what aspects of our project we can reasonably complete before
+        the end of the quarter
+      </p>
+      <hr />
+      <h3>Websites to Clone / Ideas to Steal 😊</h3>
+      <img src="Images/sharesight.PNG" alt="" width="1000" />
+      <p>
+        <strong>The ultimate stonk tracker.</strong> Really nice UI, allows us
+        to compare with <strong>SP500</strong> and other indexes.
+      </p>
+      <label for="indexes">Should we track against SP500 or NASDAQ100?</label>
+      <input type="text" name="indexes" id="indexes" list="indexList" />
+      <datalist id="indexList">
+        <option value="SP500"></option>
+        <option value="NASDAQ100"></option>
+      </datalist>
+
+      <br />
+      <label for="select">Select SuperInvestor</label>
+      <select id="select">
+        <option value="">--Please select an investor</option>
+        <option value="">Joel Greenblatt</option>
+        <option value="">Michael Burry</option>
+        <option value="">Nick Sleep</option>
+        <option value="">Warren Buffet</option>
+      </select>
+      <br />
+      <label>Should Crypto be Included?</label>
+      <input type="checkbox" />
+      <br />
+      <button>It's All gonna be alright</button>
+      <hr />
+      <nav>
+        <h3>Links</h3>
+        <ul>
+          <li><a href="https://www.sharesight.com/us/">Sharesight</a></li>
+        </ul>
+      </nav>
+    </main>
+    <section>
+      <h3>Custom Audio for the Project</h3>
+      <audio controls src="/sounds/voice.mp3"></audio>
+      <hr />
+    </section>
+    <footer>
+      <form>
+        <fieldset>
+          <legend>Vote for which day to meet again.</legend>
+          <label>Sunday, October 10th</label>
+          <input type="radio" />
+          <label>Tuesday, October 12th</label>
+          <input type="radio" />
+          <label>Thursday, October 14th</label>
+          <input type="radio" />
+        </fieldset>
+      </form>
+      <label>Motivational Quote of the Day: </label> <br />
+      <textarea cols="30" rows="2">
+"If at first you don't suceed, try, try, again!"</textarea
+      >
+      <br />
+      <hr />
+      Proceeds of this Project will go to support Jeff Bezos. Personally will
+      donate $1,000 to support the man.
+      <br />
+      @Stonk_Gambling w/the boiz
+      <br /><br />
+      <video type="video/mp4" controls width="250" src="/videos/rickroll.mp4"></video>
+    </footer>
+  </body>
+</html>
