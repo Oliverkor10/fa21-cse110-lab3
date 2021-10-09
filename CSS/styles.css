@@ -1,0 +1,61 @@
+/* Header Style */
+h1 {
+  color: #66bfbf;
+  font-size: 3em;
+  margin: auto;
+  display: block;
+}
+p:hover {
+  color: blue;
+}
+p {
+  border-style: insert;
+  border-radius: 5px;
+  border-width: 1em;
+  margin-top: 5px;
+  margin: 2px 1em 0 auto;
+  display: flex;
+}
+
+p,
+h1 {
+  color: #66bfbf;
+}
+p + h1 {
+  font-size: large;
+}
+
+p > h1 {
+  text-align: center;
+}
+
+.under {
+  text-decoration: underline red;
+  text-align: center;
+}
+
+.check_in {
+  text-align: center;
+}
+a[title] {
+  color: purple;
+  position: absolute;
+}
+
+#day {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  background: white;
+  border: solid;
+  border-color: blue;
+  border-width: 5px;
+  display: inline-block;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 100;
+  position: static;
+  display: grid;
+}
+
+* {
+  width: auto;
+}

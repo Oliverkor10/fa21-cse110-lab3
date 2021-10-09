@@ -4,8 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/styles.css" />
     <title>Lab 2 Website</title>
     <style>
+      @import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
       body {
         background-color: #ccf2f4;
       }
@@ -15,7 +17,7 @@
   <body>
     <header><h1>Stock Portfolio Project</h1></header>
     <main>
-      <h2>Meeting October 1st</h2>
+      <h2 style="color: red">Meeting October 1st</h2>
       <input type="date" value="2021-10-01" />
       <h3>Summary of Last Meeting</h3>
       <ul>
@@ -35,8 +37,8 @@
       </ul>
       <hr />
       <h3>Check-In</h3>
-      <p>Has every group member completed the HTML Video?</p>
-      <form>
+      <p class="check_in">Has every group member completed the HTML Video?</p>
+      <form class="check_in">
         <p>
           <label> Oliver </label>
           <input type="checkbox" />
@@ -62,7 +64,7 @@
           <li>Compare gains to <b>SP500</b>? Or are we out of scope?</li>
         </ol>
       </details>
-      <p>
+      <p id="day" ;>
         Today will be another day for daytreaming. Put out all of your ideas
         out. And once we got CSS, and Javascript in our grasp we can continue on
         and see what aspects of our project we can reasonably complete before
@@ -119,6 +121,7 @@
           <input type="radio" />
           <label>Thursday, October 14th</label>
           <input type="radio" />
+          <label>Friday, October 15th</label>
         </fieldset>
       </form>
       <label>Motivational Quote of the Day: </label> <br />
@@ -132,7 +135,12 @@
       <br />
       @Stonk_Gambling w/the boiz
       <br /><br />
-      <video type="video/mp4" controls width="250" src="/videos/rickroll.mp4"></video>
+      <video
+        type="video/mp4"
+        controls
+        style="width: auto"
+        src="/videos/rickroll.mp4"
+      ></video>
     </footer>
   </body>
 </html>
