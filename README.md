@@ -1,3 +1,3 @@
 # Oliver Korchnoy
 
-https://oliverkor10.github.io/Lab2/
+https://github.com/Oliverkor10/fa21-cse110-lab3
